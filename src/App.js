@@ -1,8 +1,10 @@
+import { AiFillBackward } from "react-icons/ai";
+
 function App() {
   return (
-    <div className="App">
-      hello
-    </div>
+    <h1 className="text-3xl font-bold underline">
+      Hello world! <AiFillBackward/>
+    </h1>
   );
 }
 
