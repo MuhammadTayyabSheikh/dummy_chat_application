@@ -1,6 +1,7 @@
 import { BsCameraVideo, BsTelephone } from "react-icons/bs";
 
-const Header = ({ userName }) => {
+const Header = (props) => {
+	const { userName } = props;
 	return (
 		<div className='flex justify-between border-b py-4'>
 			<h3 className='font-semobold text-2xl text-slate-900'>{userName}</h3>

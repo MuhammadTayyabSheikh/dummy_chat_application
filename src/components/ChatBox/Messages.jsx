@@ -1,7 +1,11 @@
 import Message from "./Message";
 
 const Messages = () => {
-	return <Message />;
+	return (
+		<div className="h-96">
+			<Message />
+		</div>
+	);
 };
 
 export default Messages;
